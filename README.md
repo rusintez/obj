@@ -26,6 +26,12 @@ array[0].baz
 item.baz for item in array
 ``` 
 
+### Prerequisites
+
+- git
+- python >=3.4
+- pipenv
+
 ### Development
 
     $ git clone git@github.com:rusintez/obj.git
