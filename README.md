@@ -31,6 +31,9 @@ item.baz for item in array
     $ git clone git@github.com:rusintez/obj.git
     $ cd obj
     $ pipenv install
+    $ pipenv run clean
+    $ pipenv run format
+    $ pipenv run lint
     $ pipenv run test
     $ pipenv run coverage
     $ pipenv run coverageReport

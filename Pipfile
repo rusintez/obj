@@ -8,12 +8,16 @@ test = "python src/obj_test.py"
 coverage = "coverage run --branch src/obj_test.py"
 coverageReport = "coverage html"
 document = "sphinx-build -M html source build"
+lint = "pylint src"
+format = "autopep8 --aggressive --in-place --recursive src"
 clean = "rm -rf build htmlcov source .coverage"
 
 [dev-packages]
 flit = "*"
 coverage = "*"
 sphinx = "*"
+pylint = "*"
+autopep8 = "*"
 
 [packages]
 
