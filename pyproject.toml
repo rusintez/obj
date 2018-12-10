@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "obj"
+author = "Vladimir Popov"
+author-email = "rusintez@gmail.com"
+home-page = "https://github.com/rusintez/obj"
+classifiers = ["License :: OSI Approved :: MIT License"]
+

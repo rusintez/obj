@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+test = "python src/obj_test.py"
+coverage = "coverage run --branch src/obj_test.py"
+coverageReport = "coverage html"
+document = "sphinx-build -M html source build"
+clean = "rm -rf build htmlcov source .coverage"
+
+[dev-packages]
+flit = "*"
+coverage = "*"
+sphinx = "*"
+
+[packages]
+
+[requires]
+python_version = "3.7"
